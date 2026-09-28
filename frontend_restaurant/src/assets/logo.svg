@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Logo de Jesus Italian Food">
+  <defs>
+    <!-- Arco superior e inferior para el texto curvo del sello -->
+    <path id="arco-superior" d="M 40,120 A 80,80 0 0,1 200,120" fill="none"/>
+    <path id="arco-inferior" d="M 40,120 A 80,80 0 0,0 200,120" fill="none"/>
+  </defs>
+
+  <!-- Sello exterior -->
+  <circle cx="120" cy="120" r="118" fill="#B3261E"/>
+  <circle cx="120" cy="120" r="101" fill="#FFF6E5"/>
+  <circle cx="120" cy="120" r="101" fill="none" stroke="#8B1E1E" stroke-width="2"/>
+
+  <!-- Nombre del restaurante (arco superior) -->
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="bold" fill="#B3261E" letter-spacing="2.5">
+    <textPath href="#arco-superior" startOffset="50%" text-anchor="middle">JESUS ITALIAN FOOD</textPath>
+  </text>
+
+  <!-- Reclamo (arco inferior) -->
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#1E7A46" letter-spacing="4">
+    <textPath href="#arco-inferior" startOffset="50%" text-anchor="middle">COCINA AUTENTICA</textPath>
+  </text>
+
+  <!-- Porción de pizza central -->
+  <g transform="translate(120 116)">
+    <!-- Masa superior (borde dorado) -->
+    <path d="M -38,-26 Q 0,-50 38,-26" fill="none" stroke="#D98E32" stroke-width="13" stroke-linecap="round"/>
+    <!-- Triángulo del queso -->
+    <path d="M -34,-24 L 34,-24 L 0,48 Z" fill="#F4C430" stroke="#B37A12" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Pepperonis -->
+    <circle cx="-13" cy="-9" r="7.5" fill="#B3261E"/>
+    <circle cx="14" cy="-7" r="7.5" fill="#B3261E"/>
+    <circle cx="1" cy="16" r="7" fill="#B3261E"/>
+  </g>
+
+  <!-- Barras de la bandera de Italia -->
+  <g transform="translate(0 88)">
+    <rect x="103" y="0" width="10" height="15" rx="2" fill="#009246"/>
+    <rect x="115" y="0" width="10" height="15" rx="2" fill="#FFFFFF" stroke="#D8CFBE" stroke-width="1"/>
+    <rect x="127" y="0" width="10" height="15" rx="2" fill="#CE2B37"/>
+  </g>
+</svg>
